@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            font-size: 1.4em;
+            padding: 10px;
+            font-weight: bolder;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.verde {
+            background-color: green;
+        }
+
+        col.amarelo {
+            background-color: yellow;
+        }
+
+        col.vermelho {
+            background-color: red;
+        }
+
+        col.azul {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col class="verde">
+        <col class="amarelo">
+        <col class="azul">
+        <col class="vermelho">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>24</td>
+                <td>Arquiteto</td>
+            </tr>
+            <tr>
+                <td>Caio</td>
+                <td>M</td>
+                <td>43</td>
+                <td>Advogado</td>
+            </tr>
+            <tr>
+                <td>Luiza</td>
+                <td>F</td>
+                <td>32</td>
+                <td>Enfermeira</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Programadora</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
